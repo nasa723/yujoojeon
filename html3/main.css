@@ -1,0 +1,39 @@
+.block {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detail {
+    font-size: 25px;
+    padding: 20px;
+}
+
+.box {
+    height: 250px;
+    width: 250px;
+}
+
+.one {
+    background: #FFB2D7;
+}
+
+.two {
+    background: #ededed;
+}
+
+.three {
+    background: #d9d9d9;
+}
+
+.four {
+    background: #ffd8eb;
+}

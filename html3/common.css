@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'podkova' ;
+    src: url('font/Podkova-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'korean' ;
+    src: url('font/Gaegu-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+div {
+    font-family: 'podkova', 'korean';
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.header {
+    height: 100px;
+    background: #FFD7EA;
+    display: flex;
+}
+
+.red {
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.blue {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 47px;
+}
+
+.body {
+    display: flex;
+    height: calc(100vh - 100px);
+}
+
+.list {
+    background: #cecece;
+    width: 170px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.roles {
+    width: 100%;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.role {
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.main {
+    flex: 1;
+}
